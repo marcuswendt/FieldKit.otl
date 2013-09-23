@@ -1,18 +1,21 @@
 FieldKit.otl
 ============
 
-Collection of Houdini Digital Assets
+Collection of Houdini Digital Assets.
+
 
 # Libraries
 
-## SOP Create
+## SOP
+
+### Create
 _fd_sop_create.otl_
 
 * Trail Boundary Object _creates a bounding box from an animated input_
 * Scatter Uniform (+ Point Distributor)
 
 
-## SOP Modify
+### Modify
 _fd_sop_modify.otl_
 
 * Displace by LFO Noise
@@ -20,11 +23,18 @@ _fd_sop_modify.otl_
 * Normalize _the geometry into a 0-1 size along a given dimension_
 
 
-## SOP Render
+### Render
 _fd_sop_render.otl_
 
 * Color Random from Ramp
 * Line Shaper
+
+
+### Util
+_fd_sop_util.otl_
+
+* File Cache _is a versatile multi process file caching node that works with Alembic and BGEO formats_
+
 
 
 # Installation
