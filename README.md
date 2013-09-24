@@ -13,7 +13,7 @@ _fd_sop_create.otl_
 
 * Trail Boundary Object _creates a bounding box from an animated input_
 * Scatter Uniform (+ Point Distributor)
-
+* Helix _creates a polygon helix spiral_
 
 ### Modify
 _fd_sop_modify.otl_
@@ -31,9 +31,9 @@ _fd_sop_render.otl_
 
 
 ### Util
-_fd_sop_util.otl_
+_fd_sop_util.File
 
-* File Cache _is a versatile multi process file caching node that works with Alembic and BGEO formats_
+* otl_ Cache _is a versatile multi process file caching node that works with Alembic and BGEO formats_
 
 
 
