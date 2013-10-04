@@ -1,7 +1,15 @@
-FieldKit.otl
-============
+```
+      _____  __  _____  __     ____
+     / ___/ / / /____/ / /    /    \   FieldKit
+    / ___/ /_/ /____/ / /__  /  /  /   (c) 2013, FIELD. All rights reserved.
+   /_/        /____/ /____/ /_____/    http://www.field.io
 
-Collection of Houdini Digital Assets.
+```
+
+A collection of Digital Assets for SideFX's Houdini animation and visual effects software.
+This library combines frequently used tools and ideas derived from the generative design field as small modular assets.
+
+
 
 Included Tools:
 
@@ -50,3 +58,18 @@ HOUDINI_OTLSCAN_PATH = "$FIELDKIT;$HFS/houdini/otls"
 ```
 
 3. Relaunch Houdini and it should have picked up the assets. Use Windows> Operator Type Manager> Scanned OTL Libraries to check.
+
+## TODO
+
+### Better Caching
+
+- rendering a series of dependent caches in the background
+- unlock all parent HDAs from cache node. e.g. when cache is embedded into another HDA.
+
+
+Credits
+=======
+
+Released under the BSD license.  Full details in the included LICENSE file.
+
+(c) 2013, Marcus Wendt <marcus@field.io>
