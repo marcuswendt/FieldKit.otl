@@ -1,8 +1,8 @@
 ```
-      _____  __  _____  __     ____
-     / ___/ / / /____/ / /    /    \   FieldKit
-    / ___/ /_/ /____/ / /__  /  /  /   (c) 2013, FIELD. All rights reserved.
-   /_/        /____/ /____/ /_____/    http://www.field.io
+      _____    __    _____    __       ____
+     / ___/   / /   /____/   / /      /    \    FieldKit.otl
+    / ___/   / /   /____/   / /__    /  /  /    (c) 2014, FIELD. All rights reserved.
+   /_/      /_/   /____/   /____/   /_____/     http://www.field.io
 
 ```
 
@@ -49,15 +49,16 @@ Included Tools:
 
 # Installation
 
-1. Clone the repository onto a local or network drive e.g. //ULTRA/3D/FieldKit.otl/
+1. [Download](//github.com/field/FieldKit.otl/archive/master.zip) or clone the repository onto a local or network drive e.g. //ULTRA/3D/FieldKit.otl/
 
-2. Open ```$HOME/houdiniX.Y/houdini.env``` in a text editor and append the following lines:
+2. Open ```houdini.env``` (Windows: ```$HOME/houdiniX.Y/houdini.env``` OS X: ```~/Library/Preferences/houdini/```) in a text editor and append the following lines:
 ```Bash
 FIELDKIT = "<PATH TO YOUR GIT CLONE HERE>"
 HOUDINI_OTLSCAN_PATH = "$FIELDKIT;$HFS/houdini/otls"
 ```
 
 3. Relaunch Houdini and it should have picked up the assets. Use Windows> Operator Type Manager> Scanned OTL Libraries to check.
+
 
 ## TODO
 
@@ -72,4 +73,4 @@ Credits
 
 Released under the BSD license.  Full details in the included LICENSE file.
 
-(c) 2013, Marcus Wendt <marcus@field.io>
+(c) 2013-2014, Marcus Wendt <marcus@field.io>
